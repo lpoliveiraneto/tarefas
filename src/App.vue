@@ -5,7 +5,8 @@
     </div>
 
     <div class="column is-three-quarter conteudo">
-      <RouterView></RouterView>
+     <!-- <RouterView></RouterView> -->
+     <router-view></router-view>
     </div>
   </main>
 </template>
