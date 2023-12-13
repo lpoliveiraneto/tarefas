@@ -41,15 +41,15 @@ export default defineComponent({
     };
   },
   methods: {
-    salvar() {
-      
-      if (this.id) {
+    salvar() {  
+      if (this.id == 'novo') {
+        console.log(this.id)
+        this.store.commit('ADICIONA_PROJETO', this.nomeDoProjeto)
+      } else {
         this.store.commit('ALTERA_PROJETO', {
           id: this.id,
           nome: this.nomeDoProjeto
         })
-      } else {
-        this.store.commit('ADICIONA_PROJETO', this.nomeDoProjeto)
       }
       this.nomeDoProjeto = "";
       this.$router.push('/projetos')
