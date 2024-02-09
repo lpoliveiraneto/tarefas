@@ -5,25 +5,25 @@
       "nome": "Alura Tracker 3.0"
     },
     {
-      "id": "2",
-      "nome": "ByteBank 2.0"
-    },
-    {
       "id": "3205",
       "nome": "Javinha do Poder"
+    },
+    {
+      "id": "c731",
+      "nome": "teste 2"
     }
   ],
   "tarefas": [
     {
       "id": "1",
-      "descricao": "Configuração do ambiente",
+      "descricao": "Configuração do ambiente 3",
       "projeto": {
         "id": 1,
         "nome": "Alura Tracker 3.0"
       }
     },
     {
-      "descricao": "Refatoração do vuex 4",
+      "descricao": "Refatoração do vuex",
       "projeto": {
         "id": 1,
         "nome": "Alura Tracker 3.0"
@@ -33,7 +33,7 @@
     {
       "id": "93f3",
       "duracaoEmSegundos": 6,
-      "descricao": "TESTE PARA JAVA",
+      "descricao": "Javinha é pica caralho",
       "projeto": {
         "id": "3205",
         "nome": "Javinha do Poder"
