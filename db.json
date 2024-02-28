@@ -10,7 +10,11 @@
     },
     {
       "id": "c731",
-      "nome": "teste 2"
+      "nome": "teste e o caralho"
+    },
+    {
+      "id": "8fa3",
+      "nome": "estudando para caralho"
     }
   ],
   "tarefas": [
@@ -23,7 +27,7 @@
       }
     },
     {
-      "descricao": "Refatoração do vuex",
+      "descricao": "Refatoração do vuex 5",
       "projeto": {
         "id": 1,
         "nome": "Alura Tracker 3.0"
@@ -37,6 +41,15 @@
       "projeto": {
         "id": "3205",
         "nome": "Javinha do Poder"
+      }
+    },
+    {
+      "id": "de8d",
+      "duracaoEmSegundos": 6,
+      "descricao": "teste 2 ",
+      "projeto": {
+        "id": "8fa3",
+        "nome": "estudando para caralho"
       }
     }
   ]
